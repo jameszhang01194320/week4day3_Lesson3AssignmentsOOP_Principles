@@ -1,7 +1,7 @@
 # Lesson 3: Assignments: OOP Principles
 # Remember to take your time and work through each question diligently! Test your code, make sure it works, and try to find ways to improve. Once you are happy and satisfied with your code, upload it to Github, then turn in your Github link at the bottom of the page!
 
-# Don't forget. Make sure this assignment is in it's own repository. Not mixed in with others!
+# Don't forget. Make sure this assignment is in it's own repository. Not mixed in with others
 
 # 1. Encapsulation in Personal Budget Management
 # Objective: The aim of this assignment is to reinforce the understanding of encapsulation in Python, focusing on the use of private attributes and getters and setters. Students will apply these concepts to create a Personal Budget Management system.
