@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 def d():
     print("="*25)
 
+=======
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78
 # Lesson 3: Assignments: OOP Principles
 # Remember to take your time and work through each question diligently! Test your code, make sure it works, and try to find ways to improve. Once you are happy and satisfied with your code, upload it to Github, then turn in your Github link at the bottom of the page!
 
@@ -19,16 +22,26 @@ class BudgetCategory:
     def __init__(self, category_name, allocated_budget):
         self.__category_name = category_name
         self.__allocated_budget = allocated_budget
+<<<<<<< HEAD
     
     def __str__(self):
         return f"Category: {self.__category_name}, Budget: ${self.__allocated_budget:.2f}"
 d()
 print(BudgetCategory("Food",100))
 d()
+=======
+
+    
+    # def __str__(self):
+    #     return f"Category: {self.__category_name}, Budget: ${self.__allocated_budget:.2f}"
+
+# print(BudgetCategory("Food",100))
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78
 # Task 2: Implement Getters and Setters - Write getter and setter methods for both the category name and the allocated budget. - Ensure that the setter methods include validation (e.g., budget should be a positive number).
 
 # Expected Outcome: Methods that allow controlled access and modification of the private attributes, with validation checks in place.
 
+<<<<<<< HEAD
 class BudgetCategory:
     def __init__(self, category_name, allocated_budget):
         self.__category_name = category_name
@@ -36,6 +49,9 @@ class BudgetCategory:
     
     def __str__(self):
         return f"Category: {self.__category_name}, Budget: ${self.__allocated_budget:.2f}"
+=======
+
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78
     # Getter for category name
     def get_category_name(self):
         return self.__category_name
@@ -94,7 +110,11 @@ class BudgetCategory:
 
 # Expected Outcome: Users can view a summary of each budget category, showcasing encapsulation in action.
 
+<<<<<<< HEAD
 d()
+=======
+
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78
 class BudgetCategory:
     def __init__(self, category_name, allocated_budget):
         self.__category_name = category_name
@@ -160,6 +180,7 @@ food_category.display_category_summary()
 food_category = BudgetCategory("Rent", 1000)
 food_category.add_expense(730)
 food_category.display_category_summary()
+<<<<<<< HEAD
 d()
 
 
@@ -239,3 +260,53 @@ d()
 electronic1.display_info()
 d()
 clothing1.display_info()
+=======
+
+# # 2. E-commerce Product Catalog System
+# # Objective: The goal of this assignment is to demonstrate a deep understanding of inheritance and method overriding in Python. Students will apply these concepts to develop an E-commerce Product Catalog System that handles various types of products with both common and unique attributes.
+
+# # Problem Statement: An e-commerce platform requires a system to manage different types of products, such as books, electronics, and clothing. Each product type shares some common characteristics but also has unique features. The system should be able to display information about each product appropriately.
+
+# # Task 1: Create Base Product Class
+
+# # Develop a base class Product with common attributes like product ID, name, price, and a method to display product information.
+# # Expected Outcome: A Product class that can hold general information about a product and display it.
+# # Task 2: Implement Subclasses for Specific Products
+
+# # (ONLY BOOK SUBCLASS REQUIRED)
+
+# # Create subclasses Book, Electronic, and Clothing that inherit from Product.
+# # Each subclass should have additional attributes relevant to its category (e.g., author for books, specs for electronics, size for clothing).
+# # Expected Outcome: Each subclass contains both inherited attributes from Product and new attributes specific to the product type.
+# # Task 3: Override Display Method in Subclasses
+
+# # Override the method to display product information in each subclass to include specific attributes.
+# # For example, the Book class should display the author, Electronic should display specs, etc.
+# # Expected Outcome: Calling the display method on an instance of any subclass shows both common and specific product details.
+# # Task 4: Test Product Catalog Functionality
+
+# # Instantiate objects of each subclass and call their display methods to ensure correct information is shown.
+# # Expected Outcome: The system should accurately display detailed information for each type of product, demonstrating inheritance and method overriding.
+# # Code Examples:
+
+# class Product:
+#     # Constructor and common attributes
+#     # ...
+
+#     def display_info(self):
+#         # General method to display product info
+#         pass# ...
+
+# class Book(Product):
+#     def __init__(self, product_id, name, price, author):
+#         super().__init__(product_id, name, price)
+#         self.author = author
+
+#     def display_info(self):
+#         # Overridden method for books
+#         pass# ...
+
+# # Example usage
+# my_book = Book("123", "Python Essentials", 29.99, "J. Doe")
+# my_book.display_info()
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78

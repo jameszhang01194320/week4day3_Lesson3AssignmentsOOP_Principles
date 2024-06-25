@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 week4day3_Lesson3AssignmentsOOP_Principles
 
 Lesson 3: Assignments: OOP Principles
@@ -22,3 +23,6 @@ Task 2: Implement Subclasses for Specific Products
 Task 3: Override Display Method in Subclasses
 Override the method to display product information in each subclass to include specific attributes.
 Task 4: Test Product Catalog Functionality
+=======
+# week4day3_Lesson3AssignmentsOOP_Principles
+>>>>>>> 4096345119d8a0560ca4b644b97e35cf149c3a78
